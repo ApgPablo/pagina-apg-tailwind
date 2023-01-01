@@ -7,62 +7,82 @@ import cuatro from '../assents/img/cuatro.jpg';
 import cinco from '../assents/img/cinco.jpg';
 
 const Hero = () => {
-  return (<div style={{ position: 'relative' }}>
-  <img className='w-auto cursor-pointer' src={nina} alt='Logo de nina'/>
-   <div className="hero-overlay bg-opacity-60"  style={{ position: 'absolute' ,top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}></div>
-     <div className="hero-content text-center text-neutral-content" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-       <div className="max-w-md">
-         <h1 className="mb-5 text-5xl font-bold">Hola!</h1>
-           <p className="mb-5">Prefiero una actitud de humildad que se corresponda a la debilidad de nuestra capacidad intelectual para comprender la naturaleza de nuestro propio ser.      
+  return (
+    <div>
 
-      Albert Einstein.</p>
-                  <button className="btn btn-primary cursor-grab">Empezar</button>
-
+<div className="hero min-h-screen" >
+<img className='hero min-h-screen' src={nina} alt='Logo de apg'/>
+  <div className="hero-overlay bg-opacity-60"></div>
+  <div className="hero-content text-center text-neutral-content">
+    <div className="max-w-md">
+      <h1 className="mb-5 text-5xl font-bold">¡Hola!</h1>
+      <p className="mb-5">De los gatos he aprendido que por mucha prisa que lleves, siempre puedes detenerte durante un momento para rascarte detrás de la oreja</p>
+      <button className="btn btn-primary">Empezar</button>
     </div>
   </div>
 
-  <div style={{ display: 'flex', flexDirection: 'row' }}>
 
-  <div className="card w-96 bg-base-100 shadow-xl" style={{ marginRight: '10px', marginLeft: '10px' }}><font></font>
-  <div className="card-body"  >
-    <h2 className="card-title">Descansando</h2>
   </div>
-  <figure><img className='w-80 cursor-pointer' src={uno} alt='Logo uno'/></figure><font></font>
-</div>
-<div className="card w-96 bg-base-100 shadow-xl" style={{ marginRight: '10px', marginLeft: '10px' }}><font></font>
-  <div className="card-body"><font></font>
-    <h2 className="card-title">Con su hermano mayor</h2><font></font>
-    <font></font>
-  </div><font></font>
-  <figure><img className='w-auto cursor-pointer' src={dos} alt='Logo dos'/></figure><font></font>
-</div>
-<div className="card w-96 bg-base-100 shadow-xl" style={{ marginRight: '10px', marginLeft: '10px' }}><font></font>
-  <div className="card-body"><font></font>
-    <h2 className="card-title">Mirandome</h2><font></font>
-    <font></font>
-  </div><font></font>
-  <figure><img className='w-auto cursor-pointer' src={tres} alt='Logo tres'/></figure><font></font>
-</div>
-<div className="card w-96 bg-base-100 shadow-xl"style={{ marginRight: '10px', marginLeft: '10px' }}><font></font>
-  <div className="card-body"><font></font>
-    <h2 className="card-title">Posando con el arbolito</h2><font></font>
-    <font></font>
-  </div><font></font>
-  <figure><img className='w-auto cursor-pointer' src={cuatro} alt='Logo cuatro'/></figure><font></font>
-</div>
-
-<div className="card w-96 bg-base-100 shadow-xl"style={{ marginRight: '10px', marginLeft: '10px' }}><font></font>
-  <div className="card-body"><font></font>
-    <h2 className="card-title">Durmiendo</h2><font></font>
-    <font></font>
-  </div><font></font>
-  <figure><img className='w-auto cursor-pointer' src={cinco} alt='Logo cinco'/></figure><font></font>
-</div>
 
 
+
+  <div>
+    <h1> Galería de Fotos</h1>
+  </div>
+
+
+<div style={{
+  display: 'flex', /* Usar flexbox */
+  alignItems: 'center', /* Centrar el div horizontalmente */
+  justifyContent: 'center' /* Centrar el div verticalmente */
+}}>
+  <div className="carousel carousel-center w-96  rounded-box "  >
+  <div id="slide1" className="carousel-item relative w-full">
+  <img className=' cursor-pointer' src={uno} alt='Logo uno'/>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide5" className="btn btn-circle">❮</a> 
+      <a href="#slide2" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" className="carousel-item relative w-full">
+  <img className=' cursor-pointer' src={dos} alt='Logo dos'/>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" className="btn btn-circle">❮</a> 
+      <a href="#slide3" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" className="carousel-item relative w-full">
+  <img className=' cursor-pointer' src={tres} alt='Logo tres'/>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" className="btn btn-circle">❮</a> 
+      <a href="#slide4" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" className="carousel-item relative w-full">
+  <img className=' cursor-pointer' src={cuatro} alt='Logo cuatro'/>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" className="btn btn-circle">❮</a> 
+      <a href="#slide5" className="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide5" className="carousel-item relative w-full">
+  <img className=' cursor-pointer' src={cinco} alt='Logo cinco'/>
+    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" className="btn btn-circle">❮</a> 
+      <a href="#slide1" className="btn btn-circle">❯</a>
+    </div>
+  </div> 
 </div>
 
 </div>
+
+
+
+
+
+</div>
+
+
 
   )
 }
