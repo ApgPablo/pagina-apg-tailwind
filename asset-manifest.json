@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/pagina-apg-tailwind/static/css/main.e7a342ae.css",
-    "main.js": "/pagina-apg-tailwind/static/js/main.e74d9206.js",
+    "main.css": "/pagina-apg-tailwind/static/css/main.21965c4b.css",
+    "main.js": "/pagina-apg-tailwind/static/js/main.0b5e35f6.js",
     "static/js/787.2a7058e3.chunk.js": "/pagina-apg-tailwind/static/js/787.2a7058e3.chunk.js",
-    "static/media/uno.jpg": "/pagina-apg-tailwind/static/media/uno.4764cf5461987ca6c51a.jpg",
     "static/media/nina.jpg": "/pagina-apg-tailwind/static/media/nina.d3be210ec7fd8f5104b0.jpg",
-    "static/media/dos.jpg": "/pagina-apg-tailwind/static/media/dos.9ecba363546a35f50115.jpg",
-    "static/media/cinco.jpg": "/pagina-apg-tailwind/static/media/cinco.a94b40368e9af01a1c84.jpg",
     "static/media/yoapg.png": "/pagina-apg-tailwind/static/media/yoapg.06acbe3b5e44d2e865be.png",
-    "static/media/cuatro.jpg": "/pagina-apg-tailwind/static/media/cuatro.e2c5d2af4e6d690c672f.jpg",
-    "static/media/tres.jpg": "/pagina-apg-tailwind/static/media/tres.edb51ac969fa18d81f8e.jpg",
+    "static/media/uno.jpg": "/pagina-apg-tailwind/static/media/uno.205518304c7c019fc1da.jpg",
+    "static/media/dos.jpg": "/pagina-apg-tailwind/static/media/dos.415d392540aa37c640d2.jpg",
+    "static/media/tres.jpg": "/pagina-apg-tailwind/static/media/tres.13eeb79b45405f6ce47a.jpg",
+    "static/media/cuatro.jpg": "/pagina-apg-tailwind/static/media/cuatro.123bf5f7fe5ffa221eb8.jpg",
+    "static/media/cinco.jpg": "/pagina-apg-tailwind/static/media/cinco.4eccc27be7704c37e0da.jpg",
     "static/media/logoapg.png": "/pagina-apg-tailwind/static/media/logoapg.d7e3de171a4b4da789cb.png",
     "static/media/logo.svg": "/pagina-apg-tailwind/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/pagina-apg-tailwind/index.html",
-    "main.e7a342ae.css.map": "/pagina-apg-tailwind/static/css/main.e7a342ae.css.map",
-    "main.e74d9206.js.map": "/pagina-apg-tailwind/static/js/main.e74d9206.js.map",
+    "main.21965c4b.css.map": "/pagina-apg-tailwind/static/css/main.21965c4b.css.map",
+    "main.0b5e35f6.js.map": "/pagina-apg-tailwind/static/js/main.0b5e35f6.js.map",
     "787.2a7058e3.chunk.js.map": "/pagina-apg-tailwind/static/js/787.2a7058e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7a342ae.css",
-    "static/js/main.e74d9206.js"
+    "static/css/main.21965c4b.css",
+    "static/js/main.0b5e35f6.js"
   ]
 }
